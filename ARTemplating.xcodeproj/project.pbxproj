@@ -20,11 +20,12 @@
 		28FD2C08174E5DB500B09346 /* ARViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28FD2C06174E5DB500B09346 /* ARViewController.xib */; };
 		28FD2C10174E5E6000B09346 /* web in Resources */ = {isa = PBXBuildFile; fileRef = 28FD2C0F174E5E6000B09346 /* web */; };
 		28FD2C12174E5E7C00B09346 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 28FD2C11174E5E7C00B09346 /* index.html */; };
-		28FD2C14174E5ED800B09346 /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = 28FD2C13174E5ED800B09346 /* style.css */; };
-		28FD2C16174E5F7900B09346 /* mustache.js in Sources */ = {isa = PBXBuildFile; fileRef = 28FD2C15174E5F7900B09346 /* mustache.js */; };
 		28FD2C20174E686700B09346 /* libGRMustache7-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FD2C1F174E686700B09346 /* libGRMustache7-iOS.a */; };
 		28FD2C25174E68F600B09346 /* ARNativeTemplateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FD2C23174E68F600B09346 /* ARNativeTemplateViewController.m */; };
 		28FD2C26174E68F600B09346 /* ARNativeTemplateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28FD2C24174E68F600B09346 /* ARNativeTemplateViewController.xib */; };
+		ED2EA19319DF36FF00A0BE09 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED2EA19219DF36FF00A0BE09 /* WebKit.framework */; };
+		ED2EA19719DF372700A0BE09 /* ARWKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2EA19519DF372700A0BE09 /* ARWKViewController.m */; };
+		ED2EA19819DF372700A0BE09 /* ARWKViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED2EA19619DF372700A0BE09 /* ARWKViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,8 +47,6 @@
 		28FD2C07174E5DB500B09346 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ARViewController.xib; sourceTree = "<group>"; };
 		28FD2C0F174E5E6000B09346 /* web */ = {isa = PBXFileReference; lastKnownFileType = folder; path = web; sourceTree = "<group>"; };
 		28FD2C11174E5E7C00B09346 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = index.html; path = ARTemplating/web/index.html; sourceTree = "<group>"; };
-		28FD2C13174E5ED800B09346 /* style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = style.css; path = ARTemplating/web/style.css; sourceTree = "<group>"; };
-		28FD2C15174E5F7900B09346 /* mustache.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = mustache.js; path = ARTemplating/web/mustache.js; sourceTree = "<group>"; };
 		28FD2C1F174E686700B09346 /* libGRMustache7-iOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libGRMustache7-iOS.a"; sourceTree = "<group>"; };
 		28FD2C22174E68F600B09346 /* ARNativeTemplateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARNativeTemplateViewController.h; sourceTree = "<group>"; };
 		28FD2C23174E68F600B09346 /* ARNativeTemplateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARNativeTemplateViewController.m; sourceTree = "<group>"; };
@@ -67,6 +66,10 @@
 		28FD2C82174E6D6700B09346 /* GRMustacheVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRMustacheVersion.h; sourceTree = "<group>"; };
 		28FD2C83174E6D6700B09346 /* NSFormatter+GRMustache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFormatter+GRMustache.h"; sourceTree = "<group>"; };
 		28FD2C84174E6D6700B09346 /* NSValueTransformer+GRMustache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSValueTransformer+GRMustache.h"; sourceTree = "<group>"; };
+		ED2EA19219DF36FF00A0BE09 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		ED2EA19419DF372700A0BE09 /* ARWKViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARWKViewController.h; sourceTree = "<group>"; };
+		ED2EA19519DF372700A0BE09 /* ARWKViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARWKViewController.m; sourceTree = "<group>"; };
+		ED2EA19619DF372700A0BE09 /* ARWKViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ARWKViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED2EA19319DF36FF00A0BE09 /* WebKit.framework in Frameworks */,
 				28FD2BEC174E5DB500B09346 /* UIKit.framework in Frameworks */,
 				28FD2BEE174E5DB500B09346 /* Foundation.framework in Frameworks */,
 				28FD2BF0174E5DB500B09346 /* CoreGraphics.framework in Frameworks */,
@@ -88,8 +92,6 @@
 			isa = PBXGroup;
 			children = (
 				28FD2C1F174E686700B09346 /* libGRMustache7-iOS.a */,
-				28FD2C15174E5F7900B09346 /* mustache.js */,
-				28FD2C13174E5ED800B09346 /* style.css */,
 				28FD2C11174E5E7C00B09346 /* index.html */,
 				28FD2BF1174E5DB500B09346 /* ARTemplating */,
 				28FD2BEA174E5DB500B09346 /* Frameworks */,
@@ -108,6 +110,7 @@
 		28FD2BEA174E5DB500B09346 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				ED2EA19219DF36FF00A0BE09 /* WebKit.framework */,
 				28FD2BEB174E5DB500B09346 /* UIKit.framework */,
 				28FD2BED174E5DB500B09346 /* Foundation.framework */,
 				28FD2BEF174E5DB500B09346 /* CoreGraphics.framework */,
@@ -125,6 +128,9 @@
 				28FD2C03174E5DB500B09346 /* ARViewController.h */,
 				28FD2C04174E5DB500B09346 /* ARViewController.m */,
 				28FD2C06174E5DB500B09346 /* ARViewController.xib */,
+				ED2EA19419DF372700A0BE09 /* ARWKViewController.h */,
+				ED2EA19519DF372700A0BE09 /* ARWKViewController.m */,
+				ED2EA19619DF372700A0BE09 /* ARWKViewController.xib */,
 				28FD2BF2174E5DB500B09346 /* Supporting Files */,
 				28FD2C22174E68F600B09346 /* ARNativeTemplateViewController.h */,
 				28FD2C23174E68F600B09346 /* ARNativeTemplateViewController.m */,
@@ -234,9 +240,9 @@
 				28FD2C00174E5DB500B09346 /* Default@2x.png in Resources */,
 				28FD2C02174E5DB500B09346 /* Default-568h@2x.png in Resources */,
 				28FD2C08174E5DB500B09346 /* ARViewController.xib in Resources */,
+				ED2EA19819DF372700A0BE09 /* ARWKViewController.xib in Resources */,
 				28FD2C10174E5E6000B09346 /* web in Resources */,
 				28FD2C12174E5E7C00B09346 /* index.html in Resources */,
-				28FD2C14174E5ED800B09346 /* style.css in Resources */,
 				28FD2C26174E68F600B09346 /* ARNativeTemplateViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,7 +257,7 @@
 				28FD2BF8174E5DB500B09346 /* main.m in Sources */,
 				28FD2BFC174E5DB500B09346 /* ARAppDelegate.m in Sources */,
 				28FD2C05174E5DB500B09346 /* ARViewController.m in Sources */,
-				28FD2C16174E5F7900B09346 /* mustache.js in Sources */,
+				ED2EA19719DF372700A0BE09 /* ARWKViewController.m in Sources */,
 				28FD2C25174E68F600B09346 /* ARNativeTemplateViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,7 +306,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 			};
@@ -321,7 +327,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
@@ -335,6 +341,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ARTemplating/ARTemplating-Prefix.pch";
 				INFOPLIST_FILE = "ARTemplating/ARTemplating-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
@@ -350,6 +357,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ARTemplating/ARTemplating-Prefix.pch";
 				INFOPLIST_FILE = "ARTemplating/ARTemplating-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
